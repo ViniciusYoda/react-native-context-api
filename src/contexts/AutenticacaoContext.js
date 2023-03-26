@@ -5,7 +5,7 @@ export const AutenticacaoContext = createContext({})
 export function AutenticacaoProvider({children}) {
    const [usuario, setUsuario] = useState({})
 
-   function login(email, senha){
+   async function login(email, senha){
       if(email == 'andre@email.com' && senha == 123){
          setUsuario({
             nome: 'André',
@@ -15,9 +15,8 @@ export function AutenticacaoProvider({children}) {
          })
          return 'ok'
       }
-      else {
-         return 'Email ou senha incorretos';
-      }
+      return 'Email ou senha incorretos';
+
    }
 
    return(

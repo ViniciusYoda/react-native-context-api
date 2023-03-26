@@ -8,7 +8,7 @@ import Principal from './telas/Principal';
 import Login from './telas/Login';
 import Configuracao from './telas/Configuracao';
 import Resumo from './telas/Resumo';
-import Finalizar from './telas/Finalizar'
+import Finalizar from './telas/Finalizar';
 
 export default function Rotas() {
   return (

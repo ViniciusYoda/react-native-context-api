@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const estilos = (tema) =>{
+export const estilos = (tema) => {
   return StyleSheet.create({
     container: {
       flex: 1,
@@ -27,4 +27,4 @@ export const estilos = (tema) =>{
       justifyContent: 'center',
     },
   });
-} 
+}
