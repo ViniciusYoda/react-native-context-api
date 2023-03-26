@@ -12,9 +12,21 @@ export default function Rotas() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Login" component={Login} options={{ headerShown: false }}/>
-        <Tab.Screen name="Principal" component={Principal} options={{ headerShown: false }}/>
-        <Tab.Screen name="Configurações" component={Configuracao} options={{ headerTitleAlign: 'center' }}/>
+        <Tab.Screen 
+          name="Login" 
+          component={Login} 
+          options={{ headerShown: false }}
+        />
+        <Tab.Screen 
+          name="Principal" 
+          component={Principal} 
+          options={{ headerShown: false }}
+        />
+        <Tab.Screen 
+          name="Configurações" 
+          component={Configuracao} 
+          options={{ headerTitleAlign: 'center' }}
+        />
       </Tab.Navigator>
     </NavigationContainer>
   );
