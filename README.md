@@ -3,7 +3,7 @@
 </h1>
  
 <h4 align="center"> 
-	AluraCommerce
+	AluraCommerce:
 </h4>
 
 <p align="center">
